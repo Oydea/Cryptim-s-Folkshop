@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#page {
+    margin: auto;
+    width: 1150px;
+    padding: 4px;
+    background-color: aqua;
+}
+
+header {
+    background-image: url(./imagens/banner.png);
+    height: 140px;
+    width: 1150px;
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    float: left;
+}
+
+#banner {
+    width: 1010px;
+    height: 140px;
+    float: left;
+}
+
+#banner img {
+    margin: 8px 0px 0px 254px;
+}
+nav {
+    height: 80px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    float:left;
+}
+nav a {
+display: inline-block;
+    width: 230px;
+    height: 51px;
+    background-image: url(./imagens/menu.png);
+    background-size: 230px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 29px;
+
+}
+#category{
+    display: none;
+    position: absolute;
+}
+#category a{
+    display: block;
+}
+
+#lolja:hover #category{
+    display: block;
+}
+nav a:hover, #lolja:hover #product{
+    background-image:url(./imagens/menualt.png)
+}
