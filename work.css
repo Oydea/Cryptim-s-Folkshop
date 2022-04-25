@@ -7,7 +7,7 @@
     margin: auto;
     width: 1150px;
     padding: 4px;
-    background-color: aqua;
+    background-color: rgb(3, 51, 18);
 }
 
 header {
@@ -81,8 +81,11 @@ nav a:hover,
 
 main {
     width: 1150px;
-    height: 500px;
-    background-color: green;
+    height: auto;
+    background-color: rgba(44, 44, 44, 0.856);
+    display: inline-block;
+    font-family: 'Arima Madurai', cursive;
+    color: rgb(221, 221, 221)
 }
 footer{
     background-color: rgb(26, 26, 26);
@@ -107,7 +110,7 @@ footer{
     font-weight: bold;
     color:rgb(81, 81, 81)
 }
-h3{
+footer h3{
     padding-left: 385px;
     color:rgb(81, 81, 81)
 }
@@ -188,4 +191,23 @@ h3{
 }
 footer p{
     color:rgb(82, 82, 82)
+}
+iframe{
+    display: block;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 35px auto 35px auto;
+    
+}
+h2.home, h3.home{
+    margin-top: 15px;
+    text-align: center;
+}
+h3.home span{
+    text-decoration: underline;
+    font-weight:bolder;
+}
+body{
+    background-image: url(./imagens/bg.png);
+    background-repeat:repeat;
 }
