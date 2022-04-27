@@ -378,9 +378,11 @@ margin: 20px 0 20px 20px;}
 }
 .ocupation{
     margin-top: 20px;
-    font-size: 22px; }
+    font-size: 22px;
+    list-style-type: disc;}
 .people{
     font-size: 18px;
+    list-style-type: circle;
 }
 .speech{
     font-style: italic;
